@@ -1,0 +1,42 @@
+1.同源策略:限制来自不同源的document或脚本对当前document读取或设置某些属性
+
+2.影响源的因素:host(域名,IP地址),子域名,端口,协议浏览器中scipt,img,iframe,link等标签都可以跨域加载资源,不受同源策略影响(能加载资源,但是不能读写内容)
+
+3.跨域访问:通过目标域返回的http头来判断是否允许跨域访问,因为js一般无法控制http头
+
+4.对于浏览器来说,DOM,XMLHttpRequest,cookie会受同源策略影响,第三方插件也有各自的同源策略,例如flash等
+
+5.flash通过目标网站的crossdomain.xml来判断同源策略
+
+6.csp(content security policy):由服务器返回一个http头,并在其中描述页面应当遵循的安全策略,因为xss攻击在没有第三方插件的情况下不能修改http头
+
+7.xss怎么用
+
+a) 构造GET请求
+
+```javascript
+var img = document.createElement("img");
+img.src = "xxx"
+document.body.appendchil(img);
+```
+
+b) 构造POST请求
+
+​	1.构造form表单
+
+​	2.直接写html代码
+
+​	3.通过XMLHttpRequest发送POST请求
+
+8.xss识别用户浏览器
+
+​	js->UserAgent 对象
+
+​	Flash->system.capabilities 对象会泄露用户电脑硬件信息
+
+9.xss构造技巧
+
+​	a) 利用字符编码 GBK/GB32编码
+
+
+

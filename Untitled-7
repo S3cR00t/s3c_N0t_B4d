@@ -1,0 +1,96 @@
+一个IP地址对应多个域名
+一台计算机只有一个IP地址
+1、以下哪种上传处理方式相对安全？
+正确答案: C
+
+A 检查Content-Type,非image格式一律禁止上传
+B 黑名单检测方式
+C 白名单检测方式
+D javascript判断是否允许上传
+2、正则表达式语法中 \D 匹配的是？
+正确答案: B
+
+A 数字
+B 非数字
+C 字母
+D 空白字符
+3、以下哪种方式可以开启socket端口？
+正确答案: C
+
+A ssh -L lport:DHost:Dport root@ip
+B ssh -R lport:DHost:Dport root@ip
+C ssh -D lport root@ip
+4、sql server2005注入点那种权限可以使用xp_cmdshell执行命令？
+正确答案: C
+
+A public权限
+B db_owner权限
+C SA权限
+D 其他都正确
+5、如下Activity代码：
+
+6、默认端口11211上开放的服务是？
+正确答案: D
+
+A Docker
+B pop3
+C mongodb
+D memcached
+7、关于XcodeGhost事件的正确说法是？
+正确答案: B
+
+A 部分Android 产品 也受到了影响
+B 应用程序开发使用了包含后门插件的IDE
+C 当手机被盗时才有风险
+D 苹果官方回应APPSTORE上的应用程序不受影响
+8、下列关于各类恶意代码说法错误的是？
+正确答案: C
+
+A 蠕虫的特点是其可以利用网络进行自行传播和复制
+B 木马可以对远程主机实施控制
+C Rootkit即是可以取得Root权限的一类恶意工具的统称
+D 通常类型的病毒都只能破坏主机上的各类软件，而无法破坏计算机硬件
+9、unix系统日志文件通常是存放在？
+正确答案: A
+
+A /var/log
+B /usr/adm
+C /etc/
+D /var/run
+10、以下哪种sql注入支持多语句执行？
+正确答案: A
+
+A sql server
+B oracle
+C mysql
+D db2
+11、sql注入（mysql数据库）中常用的延时函数是？
+正确答案: A C
+
+A sleep()
+B pthread_join
+C benchmark
+D postpone
+12、以下哪些工具可以抓取HTTP数据包？
+正确答案: A C
+
+A Burpsuite
+B hackbar
+C Fiddler
+D Nmap
+13、应急响应中常用查看信息的命令有哪些？
+正确答案: A B C D
+
+A ps -aux
+B last
+C w
+D more .bash_history
+14、恶意攻击行为中，属于被动攻击的有？
+正确答案: A B
+
+A 窃听
+B 流量分析
+C SQL注入攻击
+D 暴力破解
+15、简述windows不同情况下下抓hash的几种方式？假如cmdshell是system权限，可不可以IPC到目标机器，如果可以应该怎么做？
+
